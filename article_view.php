@@ -44,7 +44,7 @@
                                 <h3 class='card-title'>
                                     ".$mainArticle -> titre."
                                 </h3>
-                                <small>par : <b class='color:#4678fd'>".$mainArticle -> user."</b></small><br>
+                                <small>par : <b style='color:#4678fd'>".$mainArticle -> user."</b></small><br>
                                 <small  style='color:gray'> le ".$date->format('Y-m-d H:i')."</small>
                                 <p class='card-text' style='border:1px solid gray;border-radius:3px;margin-top:20px;padding:5px'>
                                     ".$mainArticle -> message."
